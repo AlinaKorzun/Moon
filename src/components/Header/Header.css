@@ -1,0 +1,28 @@
+.Header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #2454ff;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.GeneralWrapper{
+    width: 100%;
+    height: 60px;
+    color: #eee;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+}
+
+.GeneralWrapper a {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}

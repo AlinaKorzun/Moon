@@ -1,0 +1,38 @@
+
+.InputWrapper {
+    width: 100%;
+    display: flex;
+    padding: 15px 10px;
+    background: #203fc1;
+    justify-content: space-between;
+}
+
+.InputWrapper input{
+    width: 100%;
+    /*width: 70%;*/
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: rgba(62, 65, 73, 0.99);
+    height: 40px;
+}
+
+.ButtonSearch{
+    width: 20%;
+    height: 40px;
+    background: #2452e7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    color: #eee;
+    cursor: pointer;
+    transition: color .3s, background .3s;
+}
+
+.ButtonSearch:hover{
+    color: #2452e7;
+    background: #eee;
+    transition: color .3s, background .3s;
+}

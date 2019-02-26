@@ -1,0 +1,45 @@
+.OneLineCoin {
+    width: 100%;
+    padding: 8px 16px;
+    border-bottom: 1px solid #eeeeee;
+    display: flex;
+    justify-content: space-between;
+}
+
+.CoinTitle {
+    font-size: 18px;
+    color: #3e4149;
+    font-weight: bold;
+}
+
+.CoinPrice {
+    font-size: 16px;
+    padding-right: 15px;
+}
+
+.Add img.Add{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: block;
+}
+
+.Add img.Remove{
+    display: none;
+}
+
+.Remove img.Remove{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: block;
+}
+
+.Remove img.Add {
+    display: none;
+}
+
+.SmallWrapper{
+    display: flex;
+    align-items: center;
+}

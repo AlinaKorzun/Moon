@@ -1,0 +1,75 @@
+.OpenCoin {
+    width: 100%;
+    margin-top: 60px;
+}
+
+.NameWrapper{
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 18px;
+    position: relative;
+}
+
+.AddOrRemoveCoin{
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    cursor: pointer;
+    width: 150px;
+    align-items: center;
+    display: flex;
+}
+
+.AddOrRemoveCoin p{
+    font-size: 13px;
+}
+
+
+.AddOrRemoveCoin img{
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+
+.PriceWrapper{
+    text-align: center;
+    padding: 0 0 50px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #34a034;
+}
+
+.underChartBtn{
+    width: 100%;
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-around;
+    background: #2e467e;
+}
+
+.EachChartBtn{
+    padding: 5px 15px;
+    background: white;
+    border-radius: 5px;
+    color: #0968f7;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.25s, background .25s;
+}
+
+.EachChartBtn.active{
+    background: #0968f7;
+    color: #fff;
+}
+
+.EachChartBtn:hover{
+    background: #0968f7;
+    color: #fff;
+    transition: color 0.25s, background .25s;
+}
+
+.ChartWrapper{
+    height: 60vh;
+}
